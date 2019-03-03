@@ -1,4 +1,7 @@
 # Calculator
+Autor: Carlos Méndez Fernández
+E-mail: c.mendez@tobeit.es
+
 Android Calculator
 Build a simple calculator in Android. It should have only one Activity but you can use the layout and views that you want. We suggest using LinearLayout or TableLayout.
 
