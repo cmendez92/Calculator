@@ -49,6 +49,47 @@
             android:layout_height="match_parent"
             android:layout_weight="0.25"
             android:backgroundTint="@color/colorPrimary"
+            android:onClick="clickButtonSin"
+            android:text="Sin" />
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:backgroundTint="@color/colorPrimary"
+            android:onClick="clickButtonCos"
+            android:text="Cos" />
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:backgroundTint="@color/colorPrimary"
+            android:onClick="clickButtonPorcentage"
+            android:text="Tan" />
+
+        <Switch
+            android:id="@+id/unidadesSwitch"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:padding="30dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.14"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:backgroundTint="@color/colorPrimary"
             android:onClick="clickButtonLimpar"
             android:text="C" />
 
@@ -58,7 +99,7 @@
             android:layout_height="match_parent"
             android:layout_weight="0.25"
             android:backgroundTint="@color/colorPrimary"
-            android:onClick="clickButtonDesfazer"
+            android:onClick="clickButtonDeshacer"
             android:padding="36dp"
             android:scaleType="fitCenter"
             android:src="@drawable/delete" />
@@ -69,7 +110,7 @@
             android:layout_height="match_parent"
             android:layout_weight="0.25"
             android:backgroundTint="@color/colorPrimary"
-            android:onClick="clickButtonPorcentagem"
+            android:onClick="clickButtonPorcentage"
             android:text="%" />
 
         <Button
